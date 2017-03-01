@@ -10,7 +10,7 @@ const config = {
     entry: ['babel-polyfill', 'app.js'],
     output: {
         path: './dist',
-        publicPath: '/',
+        publicPath: '/static',
         filename: "[name].[hash].js"
     },
     module: {
@@ -43,7 +43,7 @@ const config = {
     },
     externals: {
         "react": "React",
-        "react-dom": "ReactDom"
+        "react-dom": "ReactDOM"
     }
 };
 

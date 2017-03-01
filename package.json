@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node server.js",
+    "start": "node sever.js",
     "build": "webpack --progress",
     "watch": "webpack --watch  --progress",
     "check": "eslint --ext .js --quiet ./js/**",
@@ -38,6 +38,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "express": "^4.14.1",
     "react": "^15.4.2",
     "react-dom": "^15.4.2"
   }
