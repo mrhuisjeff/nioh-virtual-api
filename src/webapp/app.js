@@ -3,5 +3,6 @@
  */
 import ReactDOM from 'react-dom';
 import React from 'react';
+import Router from 'component/router.js';
 
-ReactDOM.render(<div>hello world</div>, document.getElementById('root'));
+ReactDOM.render(<Router/>, document.getElementById('root'));

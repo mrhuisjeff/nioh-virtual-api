@@ -63,8 +63,9 @@ if (NPM_TARGET === 'test') {
         new HtmlWebpackPlugin({
             filename: 'root.html',
             inject: 'body',
-            template: 'src/webapp/root.html'
-        })
+            template: 'src/webapp/root.html',
+        }),
+        ["import", { libraryName: "antd", style: "css" }]
     ]
 }
 
